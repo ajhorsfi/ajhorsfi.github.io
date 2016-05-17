@@ -5,12 +5,14 @@ html,body
 }
 html, body, .container, .container-table, .landing, .projects, .resume, .contact 
 {
-	height: 100%;
+	min-height: 100%;
 	width:100%;
 }
-.footer .container
+.footer 
 {
 	height: 50px;
+	width: 100%;
+	text-align: center;
 }
 .container
 {
